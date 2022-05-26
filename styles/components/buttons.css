@@ -1,0 +1,15 @@
+.btn {
+    @apply py-3 font-medium active:scale-90 text-white px-8 rounded-xl leading-6 border duration-200 hover:ring-4;
+}
+
+.btn.primary {
+    @apply bg-primary  border-primary ring-primary/30;
+}
+
+.btn.secondary {
+    @apply bg-secondary border-secondary ring-secondary;
+}
+
+.btn.rounded {
+    @apply rounded-full;
+}

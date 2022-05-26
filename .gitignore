@@ -1,0 +1,7 @@
+node_modules
+
+/app/styles/*
+/.cache
+/build
+/public/build
+.env

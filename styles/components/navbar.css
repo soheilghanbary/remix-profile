@@ -1,0 +1,35 @@
+.navbar {
+  @apply p-4 bg-darker shadow-md;
+}
+
+.nav {
+  @apply flex justify-between items-center max-w-screen-xl mx-auto;
+}
+
+.nav-logo,
+.nav-icons {
+  @apply flex items-center gap-6;
+}
+
+.nav-logo h3 {
+  @apply text-white font-semibold text-lg;
+}
+.nav-logo img {
+  @apply w-14 h-14 object-fill;
+}
+
+.nav-list {
+  @apply xl:flex lg:flex hidden items-center gap-4;
+}
+
+.nav-item {
+  @apply py-3 px-4 hover:text-white font-semibold duration-150 cursor-pointer;
+}
+
+.nav-icons li {
+  @apply flex items-center justify-center rounded-full p-2 bg-darken hover:ring-2 ring-primary duration-150 cursor-pointer active:scale-90;
+}
+
+.nav-icons li img {
+  @apply w-7 h-7;
+}

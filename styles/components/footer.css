@@ -1,0 +1,20 @@
+.footer {
+  box-shadow: 0 -13px 28px #1b1b1c;
+  @apply px-10 py-20 bg-darker;
+}
+
+.footer-section {
+  @apply max-w-screen-xl mx-auto grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 gap-20;
+}
+
+.footer-icons {
+  @apply flex items-center gap-2;
+}
+
+.footer-icons li {
+  @apply flex items-center justify-center rounded-full duration-150 cursor-pointer p-2 hover:ring-2 ring-primary active:scale-90;
+}
+
+.footer-icons img {
+  @apply w-8 h-8;
+}
